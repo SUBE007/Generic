@@ -59,5 +59,22 @@ public class MaxNumberTest {
         Assert.assertSame("sube",findMaximum.check());
     }
 
+    @Test
+    public void givenValues_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor() {
+         MaxInThreeValue findMaximum = new MaxInThreeValue<Integer>(456,85,10);
+         Assert.assertEquals(new Integer(456),findMaximum.check());
+    }
+
+    @Test
+    public void givenValues_ifFindMaximum_ReturnThatFloatValue_UsingConstructor() {
+         MaxInThreeValue findMaximum = new MaxInThreeValue<Float>(1.1f,20.0f,123.1f);
+         Assert.assertEquals(new Float(123.1f), (Float) findMaximum.check(),0.1);
+    }
+
+    @Test
+    public void givenValues_ifFindMaximum_ReturnThatStringValue_UsingConstructor() {
+         MaxInThreeValue findMaximum = new MaxInThreeValue<String>("sube","dube","mube");
+         Assert.assertEquals("sube",findMaximum.check());
+    }
 
 }
