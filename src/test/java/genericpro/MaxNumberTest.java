@@ -1,62 +1,62 @@
 package genericpro;
 
-import genricpro.MaxInThreeInt;
+import genricpro.MaxInThreeValue;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class MaxNumberTest {
     @Test
     public void givenNumber_IfFindMaximum_ReturnThatValue1() {
-         Integer largest1= MaxInThreeInt.maxInGivenThreeInteger(25,26,1);
+         Integer largest1= MaxInThreeValue.largestAmongThree(25,26,1);
          Assert.assertSame(26,largest1);
     }
 
     @Test
     public void givenNumber_IfFindMaximum_ReturnThatValue2() {
-        Integer largest2= MaxInThreeInt.maxInGivenThreeInteger(100,26,0);
+        Integer largest2= MaxInThreeValue.largestAmongThree(100,26,0);
         Assert.assertSame(100,largest2);
     }
 
     @Test
     public void givenNumber_IfFindMaximum_ReturnThatValue3() {
-        Integer largest3= MaxInThreeInt.maxInGivenThreeInteger(100,26,121);
+        Integer largest3= MaxInThreeValue.largestAmongThree(100,26,121);
         Assert.assertSame(121,largest3);
     }
 
     @Test
     public void givenThreeNumber_IfFindMaximum_ReturnThatValue1() {
-        Float float1= MaxInThreeInt.maxInGivenThreeFloat(125.0f,26.0f,1.0f);
+        Float float1= MaxInThreeValue.largestAmongThree(125.0f,26.0f,1.0f);
         Assert.assertEquals(125.0,float1,0.01);
     }
 
     @Test
     public void givenThreeNumber_IfFindMaximum_ReturnThatValue2() {
-        Float float2= MaxInThreeInt.maxInGivenThreeFloat(35.21f,62.5f,12.5f);
+        Float float2= MaxInThreeValue.largestAmongThree(35.21f,62.5f,12.5f);
         Assert.assertEquals(62.5,float2,0.01);
     }
 
     @Test
     public void givenThreeNumber_IfFindMaximum_ReturnThatValue3() {
-        Float float3= MaxInThreeInt.maxInGivenThreeFloat(100.0f,26.0f,62.1f);
+        Float float3= MaxInThreeValue.largestAmongThree(100.0f,26.0f,62.1f);
         // Assert.assertSame(100.0f,float3);
         Assert.assertEquals(100,float3,0.01);
     }
 
     @Test
     public void givenThreeString_IfFindMaximum_ReturnThatString1() {
-       String string1= MaxInThreeInt.maxInGivenThreeString("sube","dube","mube");
+       String string1= MaxInThreeValue.largestAmongThree("sube","dube","mube");
         Assert.assertSame("sube",string1);
     }
 
     @Test
     public void givenThreeString_IfFindMaximum_ReturnThatString2() {
-        String string2= MaxInThreeInt.maxInGivenThreeString("dube","lube","hube");
+        String string2= MaxInThreeValue.largestAmongThree("dube","lube","hube");
         Assert.assertSame("lube",string2);
     }
 
     @Test
     public void givenThreeString_IfFindMaximum_ReturnThatString3() {
-        String string3= MaxInThreeInt.maxInGivenThreeString("quba","lube","sube");
+        String string3= MaxInThreeValue.largestAmongThree("quba","lube","sube");
         Assert.assertSame("sube",string3);
     }
 }
