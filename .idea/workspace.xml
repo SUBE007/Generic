@@ -6,9 +6,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/genricpro/MaxInThreeInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/genricpro/MaxInThreeInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/genericpro/MaxNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/genericpro/MaxNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/genericpro.MaxNumberTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/genericpro.MaxNumberTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/genericpro.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/genericpro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-genericpro.MaxNumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-genericpro.MaxNumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.MaxNumberTest">
+  <component name="RunManager" selected="Gradle.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue1">
     <configuration name="MaxNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,8 +103,71 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;genericpro.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;genericpro.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;genericpro.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue3&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue1" />
+        <item itemvalue="Gradle.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue2" />
+        <item itemvalue="Gradle.MaxNumberTest.givenThreeNumber_IfFindMaximum_ReturnThatValue3" />
         <item itemvalue="Gradle.MaxNumberTest" />
         <item itemvalue="Gradle.MaxNumberTest.givenNumber_IfFindMaximum_ReturnThatValue" />
       </list>
@@ -113,21 +187,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1310" height="374" key="GridCell.Tab.0.bottom" timestamp="1586280385375">
+    <state width="1310" height="332" key="GridCell.Tab.0.bottom" timestamp="1586283406929">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="374" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586280385375" />
-    <state width="1310" height="374" key="GridCell.Tab.0.center" timestamp="1586280385375">
+    <state width="1310" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586283406929" />
+    <state width="1310" height="332" key="GridCell.Tab.0.center" timestamp="1586283406928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="374" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586280385375" />
-    <state width="1310" height="374" key="GridCell.Tab.0.left" timestamp="1586280385375">
+    <state width="1310" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586283406928" />
+    <state width="1310" height="332" key="GridCell.Tab.0.left" timestamp="1586283406928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="374" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586280385375" />
-    <state width="1310" height="374" key="GridCell.Tab.0.right" timestamp="1586280385375">
+    <state width="1310" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586283406928" />
+    <state width="1310" height="332" key="GridCell.Tab.0.right" timestamp="1586283406928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="374" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586280385375" />
+    <state width="1310" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586283406928" />
   </component>
 </project>
