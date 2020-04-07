@@ -41,4 +41,22 @@ public class MaxNumberTest {
         // Assert.assertSame(100.0f,float3);
         Assert.assertEquals(100,float3,0.01);
     }
+
+    @Test
+    public void givenThreeString_IfFindMaximum_ReturnThatString1() {
+       String string1= MaxInThreeInt.maxInGivenThreeString("sube","dube","mube");
+        Assert.assertSame("sube",string1);
+    }
+
+    @Test
+    public void givenThreeString_IfFindMaximum_ReturnThatString2() {
+        String string2= MaxInThreeInt.maxInGivenThreeString("dube","lube","hube");
+        Assert.assertSame("lube",string2);
+    }
+
+    @Test
+    public void givenThreeString_IfFindMaximum_ReturnThatString3() {
+        String string3= MaxInThreeInt.maxInGivenThreeString("quba","lube","sube");
+        Assert.assertSame("sube",string3);
+    }
 }
