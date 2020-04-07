@@ -15,15 +15,15 @@ public class MaxInThreeValue<E extends Comparable> {
             i++;
         }
         this.arrValue = array;
-    }
+     }
      public E check(){
         Arrays.sort(arrValue);
         E largestValue=arrValue[arrValue.length-1];
         printMax(largestValue);
         return largestValue;
-    }
+     }
 
-    public static <E> void printMax(E value){
+     public static <E> void printMax(E value){
         System.out.println(value);
-    }
+     }
 }
