@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="genericpro.MaxNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-07T17:25:00" hostname="SUBE-DELL" time="0.012">
+  <properties/>
+  <testcase name="givenNumber_IfFindMaximum_ReturnThatValue1" classname="genericpro.MaxNumberTest" time="0.007"/>
+  <testcase name="givenNumber_IfFindMaximum_ReturnThatValue2" classname="genericpro.MaxNumberTest" time="0.0"/>
+  <testcase name="givenNumber_IfFindMaximum_ReturnThatValue3" classname="genericpro.MaxNumberTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
