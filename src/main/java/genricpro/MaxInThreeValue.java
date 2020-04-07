@@ -15,7 +15,6 @@ public class MaxInThreeValue<E extends Comparable> {
         E max=(E) largestAmongThree(firstValue,secoundValue,thirdValue);
         return max;
     }
-
     public static <E extends Comparable<E>> E largestAmongThree(E firstValue, E secoundValue, E thirdValue) {
         E max=firstValue;
 
