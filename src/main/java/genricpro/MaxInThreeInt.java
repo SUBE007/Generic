@@ -17,4 +17,12 @@ public class MaxInThreeInt {
             max=num3;
         return max;
     }
+    public static String maxInGivenThreeString(String string, String string2,String string3){
+        String max=string;
+        if(string2.toString().compareTo(max.toString())>0)
+            max=string2;
+        if(string3.toString().compareTo(max.toString())>0)
+            max=string3;
+        return max;
+    }
 }
